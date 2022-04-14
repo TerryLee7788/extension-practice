@@ -2,3 +2,19 @@
     width: 300px;
     padding: 15px;
 }
+.user-list {
+    font-size: 14px;
+}
+.user-title {
+    display: flex;
+}
+.user-no {
+    margin-right: 4px;
+}
+.button {
+    background-color: #ddd;
+    width: auto;
+}
+.cookie-name {
+    color: red;
+}
