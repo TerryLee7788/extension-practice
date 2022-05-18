@@ -1,13 +1,21 @@
 button {
-  height: 30px;
-  width: 30px;
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: rgb(13, 110, 253);
+  border: 1px solid rgb(13, 110, 253);
+  display: inline-block;
+  color: #fff;
   outline: none;
   margin: 10px;
   border: none;
-  border-radius: 2px;
+  border-radius: 6px;
   cursor: pointer;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-
+button:hover {
+  background-color: rgb(11, 94, 215);
+  border-color: rgb(10, 88, 202);
+}
 button.current {
   box-shadow: 0 0 0 2px white,
               0 0 0 4px black;
